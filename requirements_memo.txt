@@ -1,0 +1,13 @@
+
+Server side to handle REST API for QSL card information.
+
+This is sample data for QSL Card database.
+
+JK1UBS
+KP1BBB
+JP199A
+NP3CCK
+NJ4DDD
+NJ4DDD
+
+
