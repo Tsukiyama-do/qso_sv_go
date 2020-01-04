@@ -193,12 +193,11 @@ func main() {
 	}) // END of router.POST
 
 	//	router.Run(":8080")
-	router.Run(":8081")
-	/*
-		 err := router.RunTLS(":8443", TLS_CRT, TLS_KEY)
-		if err != nil {
-			log.Fatal(err)
-		}
-	*/
+	// router.Run(":8081")
+
+	err := router.RunTLS(":8444", TLS_CRT, TLS_KEY)
+	if err != nil {
+		log.Fatal(err)
+	}
 
 }
